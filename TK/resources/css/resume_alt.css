@@ -1,0 +1,157 @@
+/* CORE ELEMENTS */
+#pageArea {
+    display             : inline-block;
+    position            : relative;
+    width               : 100%;
+}
+#mainArea {
+	width				: 100%;
+	height				: 90.5%;
+}
+#header {
+    width               : 100%;
+    height              : 4%;
+}
+#footer {
+    width               : 100%;
+    height              : 5.5%;
+}
+
+/* BODY LINKOUTS */
+#mainArea #pdfLnk {
+    display             : inline-block;
+    position            : relative;
+    left                : 83.5%;
+    top                 : 6.5%;
+    width               : 11%;
+    height              : 4%;
+    cursor              : pointer;
+}
+#mainArea #wordLnk {
+    display             : inline-block;
+    position            : relative;
+    left                : 72%;
+    top                 : 11%;
+    width               : 11%;
+    height              : 4%;
+    cursor              : pointer;
+}
+#mainArea #linkedLnk {
+    display             : inline-block;
+    position            : relative;
+    left                : 60.5%;
+    top                 : 15%;
+    width               : 12%;
+    height              : 3.5%;
+    cursor              : pointer;
+}
+#mainArea #whythis {
+    display             : inline-block;
+    position            : relative;
+    left                : 50%;
+    top                 : 73%;
+    width               : 14%;
+    height              : 3.5%;
+    cursor              : pointer;
+}
+
+.resumeLnk {
+	filter			: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/TK/resources/images/NavButtons/ButtonAquaResume.jpg',sizingMethod='scale');
+	-ms-filter		: "progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/TK/resources/images/NavButtons/ButtonAquaResume.jpg',sizingMethod='scale')";
+}
+
+
+/* HEADER LINKS */
+#header .aboutMeLnk {
+    display             : inline-block;
+    position            : relative;
+    top                 : 68%;
+    left                : 54.5%;
+    height              : 34%
+}
+#header .portfolioLnk { 
+    display             : inline-block;
+    position            : relative;
+    top                 : 68%;
+    left                : 65%;
+    height              : 34%
+}
+#header .resumeLnk {
+    display             : inline-block;
+    position            : relative;
+    top                 : 68%;
+    left                : 75%;
+    height              : 34%
+}
+#header #emailLnk {
+    display             : inline-block;
+    position            : relative;
+    left                : -12.5%;
+    top                 : 325%;
+    width               : 11%;
+    height              : 30%;
+    cursor              : pointer;
+}
+/* FOOTER LINKS */
+#footer .aboutMeLnk {
+    display             : inline-block;
+    position            : relative;
+    left                : 41.5%;
+    top                 : 20%;
+    height				: 27%
+}
+#footer .portfolioLnk {
+    display             : inline-block;
+    position            : relative;
+    left                : 53%;
+    top                 : 20%;
+    height				: 27%
+}
+#footer .resumeLnk {
+    display             : inline-block;
+    position            : relative;
+    left                : 63.5%;
+    top                 : 20%;
+    height				: 27%
+}
+/* FOOTER LINKOURS */
+#footer #facebookLnk {
+    display             : inline-block;
+    position            : relative;
+    width               : 3.6%;
+    height              : 60%;
+    left                : 3%;
+    top                 : 25%;
+    cursor              : pointer;
+}
+#footer #twitterLnk {
+    display             : inline-block;
+    position            : relative;
+    width               : 3.6%;
+    height              : 59.5%;
+    top                 : 25%;
+    left                : 4%;
+    cursor              : pointer;
+}
+#footer #linkedinLnk {
+    display             : inline-block;
+    position            : relative;
+    width               : 3.6%;
+    height              : 60%;
+    top                 : 25%;
+    left                : 5%;
+    cursor              : pointer;
+}
+
+/* SHIN CLASSES */
+.shim {
+  margin-top    : 75%;
+  /* 4:3 aspect ratio */
+}
+.element {
+  position      : absolute;
+  top           : 0;
+  bottom        : 0;
+  left          : 0;
+  right         : 0;
+}

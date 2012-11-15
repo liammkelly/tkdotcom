@@ -1,0 +1,34 @@
+body {		
+	background-image:url(../images/aboutme.jpg);
+	background-repeat: no-repeat;  		
+	background-size	: 100%;		
+	-moz-background-size	: 100%; min-height:100%;
+}
+
+.def1 { 	
+	background-image:url(../images/TalByDef1.jpg);
+	background-size:100%; 
+	-moz-background-size:100%; 
+	background-repeat:no-repeat;
+}
+
+.def2 { 
+	background-image:url(../images/TalByDef2.jpg);
+	background-size:100%; 
+	-moz-background-size:100%; 
+	background-repeat:no-repeat; 
+}
+
+.dewdropstatic { 
+	background-image: url(../images/FallingDewDropStatic.gif);
+	background-size:100%; 
+    -moz-background-size:100%; 
+	background-repeat:no-repeat; 
+}
+
+.dewdropactive { 
+	background-image: url(../images/FallingDewDrop.gif);
+    background-size:100%; 
+    -moz-background-size:100%; 
+	background-repeat:no-repeat; 
+}

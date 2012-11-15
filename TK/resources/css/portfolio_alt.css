@@ -1,0 +1,305 @@
+/* CORE ELEMENTS */
+#pageArea {
+    display             : inline-block;
+    position            : relative;
+    width               : 100%;
+}
+#mainArea {
+	width				: 100%;
+	height				: 82%;
+}
+#header {
+    width               : 100%;
+    height              : 7.6%;
+}
+#footer {
+    width               : 100%;
+    height              : 10.4%;
+}
+
+/* CAROUSEL STYLES */
+#carousel {
+    width               : 800px; 
+    height              : 460px; 
+    overflow            : hidden; 
+    margin              : 6.8% auto;
+    background-position : initial initial; 
+    background-repeat   : initial initial;     
+    background-color    : rgb(0, 0, 0);
+    background-color    : rgba(0, 0, 0, 1);
+	-webkit-border-radius : 18px;
+	-moz-border-radius	: 18px;
+	border-radius		: 18px;	    
+	behavior			: url("/TK/resources/js/PIE-1.0.0/PIE.htc");
+	/*
+    border              : thin solid rgb(51, 51, 51); 
+    width               : 600px; 
+    height              : 400px; 
+    */
+}
+
+#viewer { 
+    display             : none;
+    width               : 800px; 
+    height              : 460px; 
+    overflow            : hidden; 
+    -webkit-border-radius : 18px;
+    -moz-border-radius  : 18px;
+    behavior            : url("/TK/resources/js/PIE-1.0.0/PIE.htc");
+    border-radius       : 18px;     
+    background-position : initial initial; 
+    background-repeat   : initial initial;     
+    background-color    : rgb(0, 0, 0);
+    background-color    : rgba(0, 0, 0, 1);
+}
+#thumbScroller {
+    width : 140px;
+    height : 460px;
+    overflow-y: hidden;    
+    margin : 0 0 0 20px;
+    float : left;
+}
+#thumbScroller IMG {
+    height : 135px;
+    width : 100px;
+    margin : 0 20px 20px;
+    border-radius: 15px 15px 15px 15px;
+}
+#thumbsDiv IMG {
+    cursor  : pointer;
+}
+#thumbsDiv #thumb_1 {
+    position : absolute;
+    top      : -584px;
+    left     : 10px;
+}
+#thumbsDiv #thumb_2 {
+    position : absolute;
+    top      : -429px;
+    left     : 10px;
+}
+#thumbsDiv #thumb_3 {
+    position : absolute;
+    top      : -274px;
+    left     : 10px;
+}
+#thumbsDiv #thumb_4 {
+    position : absolute;
+    top      : -119px;
+    left     : 10px;
+}
+#thumbsDiv #thumb_5 {
+    position : absolute;
+    top      : 36px;
+    left     : 10px;
+}
+#thumbsDiv #thumb_6 {
+    position : absolute;
+    top      : 191px;
+    left     : 10px;
+}
+#thumbsDiv #thumb_7 {
+    position : absolute;
+    top      : 346px;
+    left     : 10px;
+}
+#thumbsDiv #thumb_8 {
+    position : absolute;
+    top      : 501px;
+    left     : 10px;
+}
+#thumbsDiv #thumb_9 {
+    position : absolute;
+    top      : 656px;
+    left     : 10px;
+}
+#thumbsDiv #thumb_10 {
+    position : absolute;
+    top      : 811px;
+    left     : 10px;
+}
+.viewerSlide {
+    margin:0 10px;
+    width:531px;
+}
+.label {
+    font-size:10px;
+    font-family:Helvetica,Arial,sans-serif;
+    width:100%;
+    color : #FFFFFF;
+    margin:11px 0 0 0;
+}
+.inactiveThumb {
+    filter: grayscale(100%); 
+    -webkit-filter: grayscale(100%);
+    -moz-filter: grayscale(100%);
+    -ms-filter: grayscale(100%);
+    -o-filter: grayscale(100%);
+}
+#prevNavArea {
+    float : left;
+    height : 460px;
+    padding: 363px 0 0 0;
+}
+#nextNavArea {
+    float : left;
+    height : 460px;
+}
+#hideViewerBtn {
+    margin-top : 32px;
+}
+#nextViewerBtn {
+    margin-top : 295px;
+}
+#viewerArea {
+    float : left;
+    width : 531px;
+    height : 430px;
+    margin: 35px 0 0 0;
+}
+#prevPortfolioBtn, #nextPortfolioBtn, #prevViewerBtn, #nextViewerBtn, #hideViewerBtn {
+    background-image    : url("../images/fancybox_sprite.png");
+    background-repeat   : no-repeat;
+    display             : block;
+    outline             : medium none;
+    text-indent         : -9999px;
+    width               : 35px;
+    height              : 35px;
+}
+#hideViewerBtn {
+    background-position : 0 0;
+}
+#prevPortfolioBtn, #prevViewerBtn {
+    background-position : 0 -35px;
+    cursor : pointer;
+}
+#nextPortfolioBtn, #nextViewerBtn {
+    background-position : 0 -70px;
+    cursor : pointer;
+}
+#whywool {
+    background-image    : url("../images/WhyWool.jpg");
+    width               : 120px;
+    height              : 45px;
+    margin              : 16px 0 0 21px;
+    cursor              : pointer;
+}
+#alt-text {
+    color               : white;
+    font-family         : Arial, "MS Trebuchet", sans-serif;
+    font-size           : 12px;
+    margin              : 0 0 0 10px;
+}
+#title-text {
+    color               : white;    
+    font-family         : Arial, "MS Trebuchet", sans-serif;
+    font-size           : 16px;
+    margin              : 0 0 0 10px;
+}
+.cloudcarousel {
+    width               : 150px;
+    height              : 200px;
+    border              : 0;
+	-website-border-radius : 15px;
+	-moz-border-radius	: 15px;
+	border-radius		: 15px;	    
+	/*behavior			: url("/TK/resources/js/PIE-1.0.0/PIE.htc"); */
+}
+.reflection {
+	border				: 0;
+	-webkit-border-radius : 15px;
+	-moz-border-radius	: 15px;
+	border-radius		: 15px;	    
+	/*behavior			: url("/TK/resources/js/PIE-1.0.0/PIE.htc"); */
+}
+
+.portfolioLnk {
+ 	filter			: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/TK/resources/images/NavButtons/ButtonAquaPortfolioMe.jpg',sizingMethod='scale');
+	-ms-filter		: "progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/TK/resources/images/NavButtons/ButtonAquaPortfolioMe.jpg',sizingMethod='scale')";
+}
+
+/* HEADER LINKS */
+#header .aboutMeLnk {
+    display             : inline-block;
+    position            : relative;
+    top                 : 75%;
+    left                : 54.5%;
+    height              : 39%
+}
+#header .portfolioLnk { 
+    display             : inline-block;
+    position            : relative;
+    top                 : 75%;
+    left                : 65%;
+    height              : 39%
+}
+#header .resumeLnk {
+    display             : inline-block;
+    position            : relative;
+    top                 : 75%;
+    left                : 75%;
+    height              : 39%
+}
+/* FOOTER LINKS */
+#footer .aboutMeLnk {
+    display             : inline-block;
+    position            : relative;
+    left                : 41.5%;
+    top                 : 20%;
+    height				: 28%;
+}
+#footer .portfolioLnk {
+    display             : inline-block;
+    position            : relative;
+    left                : 53%;
+    top                 : 20%;
+    height				: 28%;
+}
+#footer .resumeLnk {
+    display             : inline-block;
+    position            : relative;
+    left                : 64%;
+    top                 : 20%;
+    height				: 28%;
+}
+/* FOOTER LINKOUTS */
+#footer #facebookLnk {
+    display             : inline-block;
+    position            : relative;
+    width               : 3.6%;
+    height              : 60%;
+    left                : 3%;
+    top                 : 25%;
+    cursor              : pointer;
+}
+#footer #twitterLnk {
+    display             : inline-block;
+    position            : relative;
+    width               : 3.6%;
+    height              : 59.5%;
+    top                 : 25%;
+    left                : 4%;
+    cursor              : pointer;
+}
+#footer #linkedinLnk {
+    display             : inline-block;
+    position            : relative;
+    width               : 3.6%;
+    height              : 60%;
+    top                 : 25%;
+    left                : 5%;
+    cursor              : pointer;
+}
+
+/* SHIN CLASSES */
+.shim {
+  margin-top    : 75%;
+  /* 4:3 aspect ratio */
+}
+.element {
+  position      : absolute;
+  top           : 0;
+  bottom        : 0;
+  left          : 0;
+  right         : 0;
+}

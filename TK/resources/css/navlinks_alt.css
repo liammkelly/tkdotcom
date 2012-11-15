@@ -1,0 +1,34 @@
+/* NAV LINKS */
+.aboutMeLnk {
+	filter			: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/TK/resources/images/NavButtons/ButtonWhiteAboutMe.jpg',sizingMethod='scale');
+	-ms-filter		: "progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/TK/resources/images/NavButtons/ButtonWhiteAboutMe.jpg',sizingMethod='scale')";
+    width         	: 6%;
+    height         	: 33%;
+}
+.resumeLnk {
+	filter			: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/TK/resources/images/NavButtons/ButtonWhiteResume.jpg',sizingMethod='scale');
+	-ms-filter		: "progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/TK/resources/images/NavButtons/ButtonWhiteResume.jpg',sizingMethod='scale')";
+    width         	: 6%;
+    height         	: 33%;
+}
+.portfolioLnk {
+	filter			: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/TK/resources/images/NavButtons/ButtonWhitePortfolioMe.jpg',sizingMethod='scale');
+	-ms-filter		: "progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/TK/resources/images/NavButtons/ButtonWhitePortfolioMe.jpg',sizingMethod='scale')";
+    width         	: 6%;
+    height         	: 33%;
+}
+div.aboutMeLnk:hover {
+    cursor         	: pointer;
+	filter			: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/TK/resources/images/NavButtons/ButtonAquaAboutMe.jpg',sizingMethod='scale');
+	-ms-filter		: "progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/TK/resources/images/NavButtons/ButtonAquaAboutMe.jpg',sizingMethod='scale')";
+}
+div.resumeLnk:hover {
+    cursor          : pointer;
+	filter			: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/TK/resources/images/NavButtons/ButtonAquaResume.jpg',sizingMethod='scale');
+	-ms-filter		: "progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/TK/resources/images/NavButtons/ButtonAquaResume.jpg',sizingMethod='scale')";
+}
+div.portfolioLnk:hover {
+    cursor          : pointer;
+	filter			: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/TK/resources/images/NavButtons/ButtonAquaPortfolioMe.jpg',sizingMethod='scale');
+	-ms-filter		: "progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/TK/resources/images/NavButtons/ButtonAquaPortfolioMe.jpg',sizingMethod='scale')";
+}

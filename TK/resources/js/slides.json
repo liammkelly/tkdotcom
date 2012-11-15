@@ -1,0 +1,190 @@
+{
+    "data" : [
+        {
+            "client" : "HBS"
+            , "slides" : [
+                {
+                    "image"  : "HBSprogramCover.jpg"
+                    , "text" : "HBS Health Industry Alumni Conference: Program cover"
+                },
+                {
+                    "image"  : "HBSposterbannerprograms.jpg"
+                    , "text" : "HBS conference signage: large banner, poster, program and directory covers."
+                },
+                {
+                    "image"  : "HBSPAGES6-7.jpg"
+                    , "text" : "2 page spread for distinguished HBS speaker Gilmartin at the Charles Hotel"
+                },
+                {
+                    "image"  : "HBSPAGES12-13.jpg"
+                    , "text" : "Pages 12-13 of the HBS conference program, featuring speakers stephan Bancel and Dan Pelino"
+                },
+                {
+                    "image"  : "HBSpages24-25.jpg"
+                    , "text" : "Pages 24-25 of the HBS conference program, featuring speaker Matt Kingdon"
+                },
+                {
+                    "image"  : "HBSpages30-31.jpg"
+                    , "text" : "HBS Health Industry Alumni Association leaders' thank you page featuring David Green and Tom Robinson"
+                },
+                {
+                    "image"  : "HBSprograms.jpg"
+                    , "text" : "live shot from HBS Health Industry Alumni Conference featuring my programs"
+                },
+                {
+                    "image"  : "HBSspeaker.jpg"
+                    , "text" : "Speaker Steven Wardell at the conference featuring my <paused> LCD screen animation, program and badge"
+                },
+                {
+                    "image"  : "HBSwebsite.jpg"
+                    , "text" : "HBS Health's website design featuring my Art Direction in collaboration with body1.com"
+                },
+                {
+                    "image"  : "PfizerHBSad.jpg"
+                    , "text" : "Full page ad for HBS featuring my Art Direction and Design"
+                }
+            ]
+        },
+        {
+            "client" : "Pfizer"
+            , "slides" : [
+                {
+                    "image"  : "PfizerCoverConference.jpg"
+                    , "text" : "Cover of Pfizer's 'Innovation and Entrepreneurship in Drug Discovery and Development' program"
+                },
+                {
+                    "image"  : "PfizerBanner.jpg"
+                    , "text" : "Live shot from the conference featuring my large banner"
+                },
+                {
+                    "image"  : "PfizerPoster.jpg"
+                    , "text" : "Live shot from the conference featuring my poster (and badges)"
+                },
+                {
+                    "image"  : "Pfizer12-13.jpg"
+                    , "text" : "2 page spread introducing the distinguished speakers to follow in the program"
+                },
+                {
+                    "image"  : "Pfizer28-29.jpg"
+                    , "text" : "Pages 12-13 of the HBS conference program, featuring speakers David Mott and Prof. Dr. Westphal"
+                },
+                {
+                    "image"  : "Pfizer8-9.jpg"
+                    , "text" : "2 page spread featuring Pfizer's SVP of Research and Development Dr. Jose-Carlos Gutierrez-Ramos"
+                },
+                {
+                    "image"  : "Pfizer10-11.jpg"
+                    , "text" : "2 page spread featuring the distinguished co-host and organizer of the event, Harvard's Dr. Wolfgang Klietmann"
+                }
+            ]
+        },
+        {
+            "client" : "BlueVellum"
+            , "slides" : [
+                {
+                    "image"  : "BlueVellum.jpg"
+                    , "text" : "Blue Vellum's website featurning effective UI and my entrepeneursip skills in founding this successful company"
+                },
+                {
+                    "image"  : "BlueVellumButtonBanners.jpg"
+                    , "text" : "The most effective of Blue Vellum's banner and button ads featuring my marketing skills and art direction"
+                },
+                {
+                    "image"  : "BlueVellumInvitations.jpg"
+                    , "text" : "Four of my personal favorites, featuring the talent of Clare Talbot and myself"
+                }
+            ]
+        },
+        {
+            "client" : "PizzaHut"
+            , "slides" : [
+                {
+                    "image"  : "PizzaHut2.jpg"
+                    , "text" : "Interactive landing page for PizzaHut's initiative to drive college student sales"
+                },
+                {
+                    "image"  : "PizzaHut.gif"
+                    , "text" : "Another view of the landing page with a brief demo of my interactivity idea"
+                },
+                {
+                    "image"  : "PizzaHutPromos.jpg"
+                    , "text" : "Animated banner and button ads for Pizza Hut's Stuffed Crust campaign"
+                }
+            ]
+        },
+        {
+            "client" : "LNT"
+            , "slides" : [
+                {
+                    "image"  : "LNTnewspapaer.jpg"
+                    , "text" : "Full page ad for Linens n things appearing in over 50 college newspapers nationwide"
+                },
+                {
+                    "image"  : "LNTads.jpg"
+                    , "text" : "Accompanying banner and button ads for Linens n things campaign"
+                }
+            ]
+        },
+        {
+            "client" : "egrad"
+            , "slides" : [
+                {
+                    "image"  : "emailBlast.jpg"
+                    , "text" : "An example of an eMail campaign blast (left- view of full email, right- close up)"
+                },
+                {
+                    "image"  : "Countdown.gif"
+                    , "text" : "Another view of the same email blast formatted to show top right animation"
+                },
+                {
+                    "image"  : "CountdownEmails.jpg"
+                    , "text" : "Additional eMail campaigns. Aside from my design, this was my first exposure to marketing call to action"
+                }
+            ]
+        },
+        {
+            "client" : "BenZen"
+            , "slides" : [
+                {
+                    "image"  : "BenZen.jpg"
+                    , "text" : "This yoga studio's design features my illustation of a praying mantis and hints at some of my life's other passions"
+                }
+            ]
+        },
+        {
+            "client" : "Germbook"
+            , "slides" : [
+                {
+                    "image"  : "germbookwebsite.jpg"
+                    , "text" : "Website design for Germbook. GB strives to educate the social media users of the latest scams and viruses"
+                },
+                {
+                    "image"  : "GermbookPromos.jpg"
+                    , "text" : "My Art Direction for developing the look and feel for these branded social network pages, banner, button, emoticon"
+                }
+            ]
+        },
+        {
+            "client" : "MBNA"
+            , "slides" : [
+                {
+                    "image"  : "MBNA1.jpg"
+                    , "text" : "Front of tri-fold flyer design for MBNA's commercial real estate loans"
+                },
+                {
+                    "image"  : "MBNA2.jpg"
+                    , "text" : "Back of tri-fold flyer design for MBNA's commercial real estate loans"
+                }
+            ]
+        },
+        {
+            "client" : "miffi"
+            , "slides" : [
+                {
+                    "image"  : "MiffiToys.jpg"
+                    , "text" : "Whimsical storefront iOS app for startup international toy retailer"
+                }
+            ]
+        }
+    ]
+}

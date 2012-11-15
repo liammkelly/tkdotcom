@@ -1,0 +1,120 @@
+/* CORE ELEMENTS */
+#pageArea {
+  	display				: inline-block;
+  	position			: relative;
+	width				: 100%;
+}
+
+/* NAV LINKS */
+.aboutMeLnk {
+	background-image	: url(../images/NavButtons/ButtonWhiteAboutMe.jpg);
+	background-size		: 100%;
+  -moz-background-size	: 100%;
+	background-repeat	: no-repeat;
+  	width				: 6%;
+	height				: 33%;
+}
+.resumeLnk {
+	background-image	: url(../images/NavButtons/ButtonWhiteResume.jpg);
+	background-size		: 100%;
+  -moz-background-size	: 100%;
+	background-repeat	: no-repeat;
+  	width				: 6%;
+	height				: 33%;
+}
+.portfolioLnk {
+	background-image	: url(../images/NavButtons/ButtonWhitePortfolioMe.jpg);
+	background-size		: 100%;
+  -moz-background-size	: 100%;
+	background-repeat	: no-repeat;
+  	width				: 6%;
+	height				: 33%;
+}
+div.aboutMeLnk:hover {
+	cursor				: pointer;
+	background-image	: url(../images/NavButtons/ButtonAquaAboutMe.jpg);
+}
+div.resumeLnk:hover {
+	cursor				: pointer;
+	background-image	: url(../images/NavButtons/ButtonAquaResume.jpg);
+}
+div.portfolioLnk:hover {
+	cursor				: pointer;
+	background-image	: url(../images/NavButtons/ButtonAquaPortfolioMe.jpg);
+}
+#header .aboutMeLnk {
+  	display				: inline-block;
+  	position			: relative;
+	top					: 65%;
+	left				: 54.5%;
+}
+#header .portfolioLnk {	
+  	display				: inline-block;
+  	position			: relative;
+	top					: 65%;
+	left				: 65%;
+}
+#header .resumeLnk {
+  	display				: inline-block;
+  	position			: relative;
+	top					: 65%;
+	left				: 75%;
+}
+#footer .aboutMeLnk {
+  	display				: inline-block;
+  	position			: relative;
+	left				: 41.5%;
+	top					: 28%;
+}
+#footer .portfolioLnk {
+  	display				: inline-block;
+  	position			: relative;
+	left				: 52%;
+	top					: 28%;
+}
+#footer .resumeLnk {
+  	display				: inline-block;
+  	position			: relative;
+	left				: 62.5%;
+	top					: 28%;
+}
+#footer #facebookLnk {
+    display             : inline-block;
+    position            : relative;
+    width               : 3.6%;
+    height              : 60%;
+    left                : 3%;
+    top                 : 25%;
+    cursor              : pointer;
+}
+#footer #twitterLnk {
+    display             : inline-block;
+    position            : relative;
+    width               : 3.6%;
+    height              : 59.5%;
+    top                 : 25%;
+    left                : 4%;
+    cursor              : pointer;
+}
+#footer #linkedinLnk {
+    display             : inline-block;
+    position            : relative;
+    width               : 3.6%;
+    height              : 60%;
+    top                 : 25%;
+    left                : 5%;
+    cursor              : pointer;
+}
+
+/* SHIN CLASSES */
+.shim {
+  margin-top	: 75%;
+  /* 4:3 aspect ratio */
+}
+.element {
+  position		: absolute;
+  top			: 0;
+  bottom		: 0;
+  left			: 0;
+  right			: 0;
+}

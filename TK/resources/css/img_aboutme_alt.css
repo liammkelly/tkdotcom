@@ -1,0 +1,30 @@
+/* LOAD INTRO BACKGROUND IMG FIRST! */
+.introBG {
+	background-image	: url(../images/IntroBkgd.gif);
+	background-repeat	: repeat;  		
+}
+
+body {		
+	filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/TK/resources/images/aboutme.jpg',sizingMethod='scale');
+	-ms-filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/TK/resources/images/aboutme.jpg',sizingMethod='scale')";
+}
+
+.def1 { 	
+	filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/TK/resources/images/TalByDef1.jpg',sizingMethod='scale');
+	-ms-filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/TK/resources/images/TalByDef1.jpg',sizingMethod='scale')";
+}
+
+.def2 { 	
+	filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/TK/resources/images/TalByDef2.jpg',sizingMethod='scale');
+	-ms-filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/TK/resources/images/TalByDef2.jpg',sizingMethod='scale')";
+}
+
+.dewdropstatic { 
+	filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/TK/resources/images/IEStaticDewDrop.gif',sizingMethod='scale');
+	-ms-filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/TK/resources/images/IEStaticDewDrop.gif',sizingMethod='scale')";
+}
+
+.dewdropactive { 
+	filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/TK/resources/images/IEStaticDewDrop.gif',sizingMethod='scale');
+	-ms-filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/TK/resources/images/IEStaticDewDrop.gif',sizingMethod='scale')";
+}

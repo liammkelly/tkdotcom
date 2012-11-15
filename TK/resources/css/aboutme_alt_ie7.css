@@ -1,0 +1,155 @@
+/* LOAD INTRO BACKGROUND IMG FIRST! */
+.introBG {
+	background-image	: url(../images/IntroBkgd.gif);
+	background-repeat	: repeat;  		
+}
+
+/* CORE ELEMENTS */
+#pageArea {
+    display        	: inline-block;
+    position     	: relative;
+    width        	: 100%;
+}
+#header {
+	width			: 100%;
+	height			: 5%;
+}
+#mainArea {
+	width			: 100%;
+	height			: 88.5%;
+}
+#footer {
+	width			: 100%;
+	height			: 6.5%;
+	border			: 1px solid green;
+}
+
+#dewdrop {
+  	display			: inline-block;
+  	position		: absolute;
+	top				: 31.4%;
+	left			: 33%;
+	width			: 21.2%;
+	height			: 24.3%;
+	z-index			: 2;
+}
+#dewdrop #whypaper {
+    display         : inline-block;
+    position        : relative;
+    top             : 70%;
+    left            : 12%;
+    width           : 87%;
+    height          : 16%;
+    cursor          : pointer;
+}
+#talbydef {
+  	display			: inline-block;
+  	position		: relative;
+	top				: 21%;
+	left			: 21.3%;
+  	width			: 57%;
+	height			: 23%;
+	z-index			: 1;
+}
+#wordcloud {
+  	display			: inline-block;
+  	position		: relative;
+	top				: 38%;
+	left			: 19%;
+  	width			: 67%;
+	height			: 25%;
+}
+
+
+.aboutMeLnk {
+	filter			: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/stage/Website//TK/resources/images/NavButtons/ButtonAquaAboutMe.jpg',sizingMethod='scale');
+	-ms-filter		: "progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/stage/Website//TK/resources/images/NavButtons/ButtonAquaAboutMe.jpg',sizingMethod='scale')";
+}
+
+
+/* HEADER LINKS */ 
+#header .aboutMeLnk {
+    display             : inline-block;
+    position            : relative;
+    top                 : 65%;
+    left                : 54.5%;
+}
+#header .portfolioLnk { 
+    display             : inline-block;
+    position            : relative;
+    top                 : 32%;
+    left                : 71%;
+}
+#header .resumeLnk {
+    display             : inline-block;
+    position            : relative;
+    top                 : -1%;
+    left                : 88%;
+}
+/* FOOTER LINKS */ 
+#footer .aboutMeLnk {
+    position            : relative;
+    height				: 27%;
+    border				: 1px solid red;
+}
+#footer .portfolioLnk {
+    position            : relative;
+    height				: 27%;
+    border				: 1px solid red;
+}
+#footer .resumeLnk {
+    position            : relative;
+    height				: 27%;
+    border				: 1px solid red;
+}
+/* FOOTER LINKOUTS */
+#footer #facebookLnk {
+    display             : inline-block;
+    position            : relative;
+    width               : 3.6%;
+    height              : 60%;
+    left                : 3%;
+    top                 : 25%;
+    cursor              : pointer;
+    border				: 1px solid red;
+    clear				: none;
+}
+#footer #twitterLnk {
+    display             : inline-block;
+    position            : relative;
+    width               : 3.6%;
+    height              : 59.5%;
+    top                 : -36%;
+    left                : 8%;
+    cursor              : pointer;
+    border				: 1px solid red;
+}
+#footer #linkedinLnk {
+    display             : inline-block;
+    position            : relative;
+    width               : 3.6%;
+    height              : 60%;
+    top                 : -97%;
+    left                : 13%;
+    cursor              : pointer;
+    border				: 1px solid red;
+}
+
+/* SHIN CLASSES */
+.shim {
+  margin-top    : 75%;
+  /* 4:3 aspect ratio */
+}
+.element {
+  position      : absolute;
+  top           : 0;
+  bottom        : 0;
+  left          : 0;
+  right         : 0;
+}
+.pointer {
+    cursor      : pointer
+}
+.nopointer {
+    cursor      : auto
+}

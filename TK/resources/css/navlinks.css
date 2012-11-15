@@ -1,0 +1,37 @@
+/* NAV LINKS */
+.aboutMeLnk {
+	background-image	: url(../images/NavButtons/ButtonWhiteAboutMe.jpg);
+    background-size     : 100%;
+  -moz-background-size  : 100%;
+    background-repeat   : no-repeat;
+    width               : 6%;
+    height              : 33%;
+}
+.resumeLnk {
+	background-image	: url(../images/NavButtons/ButtonWhiteResume.jpg);
+    background-size     : 100%;
+  -moz-background-size  : 100%;
+    background-repeat   : no-repeat;
+    width               : 6%;
+    height              : 33%;
+}
+.portfolioLnk {
+	background-image	: url(../images/NavButtons/ButtonWhitePortfolioMe.jpg);
+    background-size     : 100%;
+  -moz-background-size  : 100%;
+    background-repeat   : no-repeat;
+    width               : 6%;
+    height              : 33%;
+}
+div.aboutMeLnk:hover {
+    cursor              : pointer;
+	background-image	: url(../images/NavButtons/ButtonAquaAboutMe.jpg);
+}
+div.resumeLnk:hover {
+    cursor              : pointer;
+	background-image	: url(../images/NavButtons/ButtonAquaResume.jpg);
+}
+div.portfolioLnk:hover {
+    cursor              : pointer;
+	background-image	: url(../images/NavButtons/ButtonAquaPortfolioMe.jpg);
+}
