@@ -1,6 +1,23 @@
 {
     "data" : [
         {
+            "client" : "HBSHealth"
+            , "slides" : [
+                {
+                    "image"  : "HBSHealth1.jpg"
+                    , "text" : "HBS Healthcare Alumni Association website (1 of 3)"
+                },
+                {
+                    "image"  : "HBSHealth2.jpg"
+                    , "text" : "HBS Healthcare Alumni Association website (2 of 3)"
+                },
+                {
+                    "image"  : "HBSHealth3.jpg"
+                    , "text" : "HBS Healthcare Alumni Association website (3 of 3)"
+                }
+			]
+		},
+        {
             "client" : "HBS"
             , "slides" : [
                 {

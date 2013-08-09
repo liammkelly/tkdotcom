@@ -3,7 +3,7 @@ var thumbsPath = '/TK/resources/images/PortfolioPieces/Thumbnails/';
 TalKellyCom['clientSlides'] = {};
 TalKellyCom['clients'] = [];
 TalKellyCom['currClient'] = '';
-TalKellyCom['thumbClick'] = 1;
+TalKellyCom['thumbClick'] = 0;
 
 $(function(){
 
@@ -11,33 +11,10 @@ $(function(){
 
     compat();
 
-    // This initialises carousels on the container elements specified, in this case, carousel1.
-    $("#carousel").CloudCarousel(      
-        {           
-            yRadius         : 40
-            , xRadius		: 350
-            , xPos          : 390
-            , yPos          : 120
-            , buttonLeft    : $("#prevPortfolioBtn")
-            , buttonRight   : $("#nextPortfolioBtn")
-            //, altBox        : $("#alt-text")
-            //, titleBox      : $("#title-text")
-            , reflHeight    : 56
-            , reflGap       : 2
-            , minScale      : 0.3
-            , maxHeight		: 700
-            , scrolling		: 'yes'
-            , autoSize	 	: false  
-            , fitToView 	: false  
-            , bringToFront  : false      
-            , mouseWheel    : true
-            , speed         : 0.4
-        }
-    );
+
     
     // $("#carouselContent").hide();
     // $('#viewer').show();
-    
     
     $.ajax({
         url         : '/TK/resources/js/slides.json'
@@ -93,6 +70,14 @@ $(function(){
                     TalKellyCom.thumbClick = 0;
                 }
             });
+			var client = 'HBSHealth';
+			TalKellyCom.portfolioPiece = client;
+			TalKellyCom.currClient = client;
+			jumpToClient( client );
+			resetThumbs( client );
+			$("#carouselContent").hide();
+			$('#viewer').show();
+			TalKellyCom.thumbClick = 0;    
         }
     })
     
