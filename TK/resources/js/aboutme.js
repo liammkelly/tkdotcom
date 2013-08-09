@@ -3,10 +3,13 @@ TalKellyCom.isStartPreload = '';
 TalKellyCom.overlayLength = 6500;
 
 $().ready( function() {
+	
+	/*
+	
 	$('<div/>')
 		.attr('id','loadoverlay')
 		.addClass('introBG')
-		/*.css({
+		.css({
 			//'backgroundColor'	: '#FFF'
 			'z-index'			: '10'
 			, 'position'		: 'fixed' 
@@ -14,7 +17,7 @@ $().ready( function() {
     		, 'left'			: 0
     		, 'width'			: '100%'
     		, 'height'			: '100%'
-    	})*/
+    	})
 		//.width( wwidth )
 		//.height( wheight )
 		.prependTo('body');
@@ -43,6 +46,7 @@ $().ready( function() {
 		}
 	});
 
+	*/
 
 	TalKellyCom.isStartPreload = new Date();
 
@@ -53,10 +57,20 @@ $().ready( function() {
 		, "/TK/resources/images/NavButtons/ButtonAquaAboutMe.jpg"
 		, "/TK/resources/images/NavButtons/ButtonAquaPortfolioMe.jpg"
 		, "/TK/resources/images/NavButtons/ButtonAquaResume.jpg"
-		, "/TK/resources/images/TalByDef1.jpg"
+		, "/TK/resources/images/TalByDef1a.jpg"
+		, "/TK/resources/images/TalByDef2a.jpg"
 		, "/TK/resources/images/FallingDewDrop.gif"
 		, "/TK/resources/images/FallingDewDropStatic.gif"
-		, "/TK/resources/images/TalByDef2.jpg"
+		, "/TK/resources/images/PortfolioPieces/Thumbnails/BenZen.jpg"
+		, "/TK/resources/images/PortfolioPieces/Thumbnails/Miffi.gif"
+		, "/TK/resources/images/PortfolioPieces/Thumbnails/BlueVellum.jpg"
+		, "/TK/resources/images/PortfolioPieces/Thumbnails/PizzaHut.jpg"
+		, "/TK/resources/images/PortfolioPieces/Thumbnails/Countdown.jpg"
+		, "/TK/resources/images/PortfolioPieces/Thumbnails/Luminaire.jpg"
+		, "/TK/resources/images/PortfolioPieces/Thumbnails/Germbook.jpg"
+		, "/TK/resources/images/PortfolioPieces/Thumbnails/DiningIn.jpg"
+		, "/TK/resources/images/PortfolioPieces/Thumbnails/HBS.jpg"
+		, "/TK/resources/images/PortfolioPieces/Thumbnails/Pfizer.jpg"
 	]);
 
     // set body height as soon as page is loaded

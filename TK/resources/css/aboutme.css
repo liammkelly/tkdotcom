@@ -68,7 +68,7 @@ body {
 	top				: 21%;
 	left			: 21.3%;
   	width			: 57%;
-	height			: 23%;
+	height			: 24%;
 	z-index			: 1;
 }
 #wordcloud {
@@ -80,13 +80,13 @@ body {
 	height			: 25%;
 }
 .def1 { 	
-	background-image	: url(../images/TalByDef1.jpg);
+	background-image	: url(../images/TalByDef1a.jpg);
 	background-size		: 100%; 
 	-moz-background-size: 100%; 
 	background-repeat	: no-repeat;
 }
 .def2 { 
-	background-image	: url(../images/TalByDef2.jpg);
+	background-image	: url(../images/TalByDef2a.jpg);
 	background-size		: 100%; 
 	-moz-background-size: 100%; 
 	background-repeat	: no-repeat; 
