@@ -2,8 +2,14 @@ TalKellyCom.isDewDropAnimated = false;
 TalKellyCom.isStartPreload = '';
 TalKellyCom.overlayLength = 6500;
 
+$(window).load(function() {
+	console.log( "load", $('#footer').height() )
+});
+
 $().ready( function() {
-	
+
+	console.log( "ready", $('#footer').height() )
+
 	/*
 	
 	$('<div/>')
@@ -61,16 +67,7 @@ $().ready( function() {
 		, "/TK/resources/images/TalByDef2a.jpg"
 		, "/TK/resources/images/FallingDewDrop.gif"
 		, "/TK/resources/images/FallingDewDropStatic.gif"
-		, "/TK/resources/images/PortfolioPieces/Thumbnails/BenZen.jpg"
-		, "/TK/resources/images/PortfolioPieces/Thumbnails/Miffi.gif"
-		, "/TK/resources/images/PortfolioPieces/Thumbnails/BlueVellum.jpg"
-		, "/TK/resources/images/PortfolioPieces/Thumbnails/PizzaHut.jpg"
-		, "/TK/resources/images/PortfolioPieces/Thumbnails/Countdown.jpg"
-		, "/TK/resources/images/PortfolioPieces/Thumbnails/Luminaire.jpg"
-		, "/TK/resources/images/PortfolioPieces/Thumbnails/Germbook.jpg"
-		, "/TK/resources/images/PortfolioPieces/Thumbnails/DiningIn.jpg"
-		, "/TK/resources/images/PortfolioPieces/Thumbnails/HBS.jpg"
-		, "/TK/resources/images/PortfolioPieces/Thumbnails/Pfizer.jpg"
+		, "/TK/resources/images/Portfolio.jpg"
 	]);
 
     // set body height as soon as page is loaded
@@ -95,16 +92,6 @@ $().ready( function() {
 	$('#whypaper').click( function() {
 	    $('#box_whypaper').trigger('click');
 	})
-	
-	// switch definitions for Tal on mouseover
-	$('#talbydef').hover(
-		function() {
-            $(this).removeClass('def2').addClass('def1');
-		},
-		function() {
-            $(this).removeClass('def1').addClass('def2');
-		}
-	)
  		
 	// percentage based imagemap for word cloud
     var coords = '', prevX = 0, prevY = 0, currentX = 0, currentY = 0, debug = 0;

@@ -20,7 +20,7 @@ $(window).load( function() {
         window.open('http://www.linkedin.com/in/talkelly')
     })
     $('.resumeLnk').click( function() {
-    	window.location = 'resume.cfm';
+    	window.location = 'contact.cfm';
     })
     $('.aboutMeLnk').click( function() {
     	window.location = '/';

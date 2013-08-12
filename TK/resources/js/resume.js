@@ -22,12 +22,25 @@ $().ready( function() {
         window.open('http://www.linkedin.com/in/talkelly')
     })
 
+	$('#sendMessage').click( function() {
+		$.ajax({
+			url: '/TK/ContactForm.cfm',
+			data: $('#contactForm').serialize(),
+			error: function(r) {
+				console.log('error!',r)
+			},
+			success: function(r) {
+				console.log('success!',r)
+			}
+		});
+	})
+
 })
 
 
 function setBodyHeight() {
-	var newHeight = 2437 * ( $(window).width() / 2000 );
-	$('#header').height( newHeight * .04 );
-	$('#mainArea').height( newHeight * .905 );
-	$('#footer').height( newHeight * .055 );
+	var newHeight = 989 * ( $(window).width() / 1100 );
+	$('#header').height( newHeight * .05 );
+	$('#mainArea').height( newHeight * .870 );
+	$('#footer').height( newHeight * .08 );
 }

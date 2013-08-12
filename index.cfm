@@ -47,7 +47,6 @@
 	</div>
 
 	<div id="mainArea">	
-		<div id="talbydef" class="def1">&nbsp;</div>
 		<div id="dewdrop" class="dewdropstatic">
 		    <div id="whypaper">&nbsp;</div>
 		</div>

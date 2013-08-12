@@ -5,15 +5,11 @@
             , "slides" : [
                 {
                     "image"  : "HBSHealth1.jpg"
-                    , "text" : "HBS Healthcare Alumni Association website (1 of 3)"
+                    , "text" : "HBS Healthcare Alumni Association website"
                 },
                 {
                     "image"  : "HBSHealth2.jpg"
-                    , "text" : "HBS Healthcare Alumni Association website (2 of 3)"
-                },
-                {
-                    "image"  : "HBSHealth3.jpg"
-                    , "text" : "HBS Healthcare Alumni Association website (3 of 3)"
+                    , "text" : "HBS Healthcare Alumni Association website"
                 }
 			]
 		},
@@ -21,44 +17,16 @@
             "client" : "HBS"
             , "slides" : [
                 {
-                    "image"  : "HBSprogramCover.jpg"
-                    , "text" : "HBS Health Industry Alumni Conference: Program cover"
+                    "image"  : "HBSprograms4up.jpg"
+                    , "text" : "HBS Health Industry Alumni Conference"
                 },
                 {
-                    "image"  : "HBSposterbannerprograms.jpg"
-                    , "text" : "HBS conference signage: large banner, poster, program and directory covers."
-                },
-                {
-                    "image"  : "HBSPAGES6-7.jpg"
-                    , "text" : "2 page spread for distinguished HBS speaker Gilmartin at the Charles Hotel"
-                },
-                {
-                    "image"  : "HBSPAGES12-13.jpg"
-                    , "text" : "Pages 12-13 of the HBS conference program, featuring speakers stephan Bancel and Dan Pelino"
-                },
-                {
-                    "image"  : "HBSpages24-25.jpg"
-                    , "text" : "Pages 24-25 of the HBS conference program, featuring speaker Matt Kingdon"
-                },
-                {
-                    "image"  : "HBSpages30-31.jpg"
-                    , "text" : "HBS Health Industry Alumni Association leaders' thank you page featuring David Green and Tom Robinson"
-                },
-                {
-                    "image"  : "HBSprograms.jpg"
-                    , "text" : "live shot from HBS Health Industry Alumni Conference featuring my programs"
-                },
-                {
-                    "image"  : "HBSspeaker.jpg"
-                    , "text" : "Speaker Steven Wardell at the conference featuring my <paused> LCD screen animation, program and badge"
+                    "image"  : "HBSpagesX4.jpg"
+                    , "text" : "HBS Health Industry Alumni Conference program"
                 },
                 {
                     "image"  : "HBSwebsite.jpg"
-                    , "text" : "HBS Health's website design featuring my Art Direction in collaboration with body1.com"
-                },
-                {
-                    "image"  : "PfizerHBSad.jpg"
-                    , "text" : "Full page ad for HBS featuring my Art Direction and Design"
+                    , "text" : "HBS Health Industry Alumni Conference website"
                 }
             ]
         },
@@ -74,24 +42,12 @@
                     , "text" : "Live shot from the conference featuring my large banner"
                 },
                 {
+                    "image"  : "PfizerSpeakers.jpg"
+                    , "text" : "Speaker spreads from the conference program"
+                },
+                {
                     "image"  : "PfizerPoster.jpg"
                     , "text" : "Live shot from the conference featuring my poster (and badges)"
-                },
-                {
-                    "image"  : "Pfizer12-13.jpg"
-                    , "text" : "2 page spread introducing the distinguished speakers to follow in the program"
-                },
-                {
-                    "image"  : "Pfizer28-29.jpg"
-                    , "text" : "Pages 12-13 of the HBS conference program, featuring speakers David Mott and Prof. Dr. Westphal"
-                },
-                {
-                    "image"  : "Pfizer8-9.jpg"
-                    , "text" : "2 page spread featuring Pfizer's SVP of Research and Development Dr. Jose-Carlos Gutierrez-Ramos"
-                },
-                {
-                    "image"  : "Pfizer10-11.jpg"
-                    , "text" : "2 page spread featuring the distinguished co-host and organizer of the event, Harvard's Dr. Wolfgang Klietmann"
                 }
             ]
         },
@@ -126,19 +82,6 @@
                 {
                     "image"  : "PizzaHutPromos.jpg"
                     , "text" : "Animated banner and button ads for Pizza Hut's Stuffed Crust campaign"
-                }
-            ]
-        },
-        {
-            "client" : "LNT"
-            , "slides" : [
-                {
-                    "image"  : "LNTnewspapaer.jpg"
-                    , "text" : "Full page ad for Linens n things appearing in over 50 college newspapers nationwide"
-                },
-                {
-                    "image"  : "LNTads.jpg"
-                    , "text" : "Accompanying banner and button ads for Linens n things campaign"
                 }
             ]
         },

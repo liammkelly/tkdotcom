@@ -1,9 +1,10 @@
 var thumbsPath = '/TK/resources/images/PortfolioPieces/Thumbnails/';
+var contentPath = '/TK/resources/images/PortfolioPieces/NewPortfolioContentImages/';
 
 TalKellyCom['clientSlides'] = {};
 TalKellyCom['clients'] = [];
 TalKellyCom['currClient'] = '';
-TalKellyCom['thumbClick'] = 0;
+TalKellyCom['thumbClick'] = 1;
 
 $(function(){
 
@@ -11,10 +12,65 @@ $(function(){
 
     compat();
 
+    document.keydown = function(e) {
+    	// enable navigation via arrow keys
+        if (e.keyCode == 37) {
+           $('#prevViewerBtn').click()
+           return false;
+        } else if (e.keyCode == 39) {
+           $('#nextViewerBtn').click()
+           return false;
+        }
+    };
 
-    
-    // $("#carouselContent").hide();
-    // $('#viewer').show();
+	// preload key images
+	preload([
+		'/TK/resources/images/fancybox_sprite.png',
+		contentPath + 'HBSHealth1.jpg',
+		thumbsPath + 'HBSHealth.jpg',
+		thumbsPath + 'HBSB&W.jpg',
+		thumbsPath + 'PfizerB&W.jpg',
+		thumbsPath + 'miffiB&W.jpg',
+		thumbsPath + 'Pfizer.jpg',
+		contentPath + 'HBSHealth2.jpg',
+		thumbsPath + 'miffi.jpg',
+		contentPath + 'MiffiToys.jpg',
+		contentPath + 'HBSHealth3.jpg',
+		thumbsPath + 'BlueVellumB&W.jpg',
+		thumbsPath + 'BlueVellum.jpg',
+		thumbsPath + 'PizzaHutB&W.jpg',
+		thumbsPath + 'PizzaHut.jpg',
+		contentPath + 'HBSprogramCover.jpg',
+		contentPath + 'HBSposterbannerprograms.jpg'
+	]);
+
+    // This initialises carousels on the container elements specified, in this case, carousel1.
+    $("#carousel").CloudCarousel(
+        {
+            yRadius         : 40
+            , xRadius		: 350
+            , xPos          : 390
+            , yPos          : 120
+            , buttonLeft    : $("#prevPortfolioBtn")
+            , buttonRight   : $("#nextPortfolioBtn")
+            //, altBox        : $("#alt-text")
+            //, titleBox      : $("#title-text")
+            , reflHeight    : 56
+            , reflGap       : 2
+            , minScale      : 0.3
+            , maxHeight		: 700
+            , scrolling		: 'yes'
+            , autoSize	 	: false
+            , fitToView 	: false
+            , bringToFront  : false
+            , mouseWheel    : true
+            , speed         : 0.4
+        }
+    );
+
+    $("#carouselContent").hide();
+    $('#viewer').show();
+
     
     $.ajax({
         url         : '/TK/resources/js/slides.json'
@@ -28,7 +84,7 @@ $(function(){
                 var currClient = aData[j]['client'];
                 for( var i = 0; i < aClient.length; i++ ) {
                     var slide = $('<div/>').attr('id',currClient+'_'+i).addClass('viewerSlide');
-                    var img = $('<img/>').attr('src', '/TK/resources/images/PortfolioPieces/NewPortfolioContentImages/'+aClient[i]['image']);
+                    var img = $('<img/>').attr('src', contentPath + aClient[i]['image']);
                     var label = $('<div/>').html( aClient[i]['text'] ).addClass('label');
                     slide.append( img );
                     slide.append( label );
@@ -39,14 +95,14 @@ $(function(){
             $('#viewerArea').cycle({ 
                 fx          : 'scrollHorz'
                 , timeout   : 0 
-                , speed     : 1000
+                , speed     : 700
                 , next      : '#nextViewerBtn' 
                 , prev      : '#prevViewerBtn' 
                 , after     : function() {
                     var newclient = $(this).attr('id').split('_')[0];
                     var newThumbIndex = TalKellyCom.clients.indexOf( newclient );
                     var oldThumbIndex = TalKellyCom.clients.indexOf( TalKellyCom.currClient );
-                    if( newThumbIndex !== oldThumbIndex && TalKellyCom.thumbClick === 0 ) {
+                    if( newThumbIndex !== oldThumbIndex && !TalKellyCom.thumbClick ) {
                         if( newThumbIndex === 0 ) {
                             if( oldThumbIndex === ( TalKellyCom.clients.length - 1 ) ) {                                
                                 slideThumbs('up');                            
@@ -70,14 +126,6 @@ $(function(){
                     TalKellyCom.thumbClick = 0;
                 }
             });
-			var client = 'HBSHealth';
-			TalKellyCom.portfolioPiece = client;
-			TalKellyCom.currClient = client;
-			jumpToClient( client );
-			resetThumbs( client );
-			$("#carouselContent").hide();
-			$('#viewer').show();
-			TalKellyCom.thumbClick = 0;    
         }
     })
     
@@ -119,47 +167,6 @@ $(function(){
         $('#viewer').hide();
     })
 
-	$('.cloudcarousel').click( function() {
-        TalKellyCom.thumbClick = 1;
-	    var client = $(this).data('client');
-		TalKellyCom.portfolioPiece = client;
-		TalKellyCom.currClient = client;
-		jumpToClient( client );
-        resetThumbs( client );
-		$("#carouselContent").hide();
-        $('#viewer').show();
-        TalKellyCom.thumbClick = 0;
-	})
-    
-	preload([
-		// '/TK/resources/images/PortfolioPieces/FullImages/Countdown.gif'
-		//, '/TK/resources/images/PortfolioPieces/FullImages/BlueVellum.jpg'
-		//, '/TK/resources/images/PortfolioPieces/FullImages/BenZen.jpg'
-		//, '/TK/resources/images/PortfolioPieces/FullImages/MiffiBlack.gif'
-		//, '/TK/resources/images/PortfolioPieces/FullImages/PizzaHut.gif'
-		//, '/TK/resources/images/PortfolioPieces/FullImages/DininginAnimBlack.gif'
-		//, '/TK/resources/images/PortfolioPieces/FullImages/Luminaire.jpg'
-		//, '/TK/resources/images/PortfolioPieces/FullImages/Germbook.jpg'
-		//, '/TK/resources/images/PortfolioPieces/FullImages/Countdown.jpg'
-	]);
-
-    // open Fancybox to show "why all this?"
-    $('#box_whywool').fancybox({
-        padding         : 2 
-    });
-    $('#whywool').click( function() {
-        $('#box_whywool').trigger('click');
-    })
-    
-    $('.fancyboxscroll').fancybox({
-        scrolling   : 'yes'
-        , height    : 200
-    })
-
-})
-
-$(window).load( function() {
-	$.fancybox.close();
 })
 
 function compat() {
@@ -250,7 +257,7 @@ function slideThumbs(dir) {
     }
     $('#thumbsDiv IMG').animate({
         top: operator + '=155'
-    }, 1000, function() {
+    }, 700, function() {
         if( !complete ) {
             if( dir === 'down' ) {
                 var tar = $('#thumbsDiv IMG').eq(9).attr('id');

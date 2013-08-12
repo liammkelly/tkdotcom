@@ -44,13 +44,39 @@
         <div id="emailLnk"><div class="shim"></div><div class="element">&nbsp;</div></div>
 	</div>
 
-	<div id="mainArea">		    
-        <div id="pdfLnk"><div class="shim"></div><div class="element">&nbsp;</div></div>
-		<div id="wordLnk"><div class="shim"></div><div class="element">&nbsp;</div></div>
-        <div id="linkedLnk"><div class="shim"></div><div class="element">&nbsp;</div></div>
-        <div id="whythis"><div class="shim"></div><div class="element">&nbsp;</div></div>
+	<div id="mainArea">
+		<div id="content">
+			<div id="feelfree"><div class="element">&nbsp;</div></div>
+			<form id="contactForm">
+            	<ul id="formFields">
+                	<li>
+                      	<input type="text" name="name" id="senderName" placeholder="  Your name" required="required" maxlength="40" />
+                    </li>
+                    <li>
+                      	<input type="email" name="email" id="senderEmail" placeholder="  Your email address" required="required" maxlength="50" />
+                    </li>
+                    <li>
+                      	<textarea name="message" id="message" placeholder="  Your message" required="required" cols="80" rows="10" maxlength="10000"></textarea>
+                      	<div id="formButton">
+							<div id="sendMessage">&nbsp;</div>
+						</div>
+                    </li>
+               	</ul>
+
+			</form>
+			<div id="sendingMessage" class="statusMessage"><p>Sending your message. Please wait...</p></div>
+			<div id="successMessage" class="statusMessage"><p>Thanks for sending your message! We'll get back to you shortly.</p></div>
+			<div id="failureMessage" class="statusMessage"><p>There was a problem sending your message. Please try again.</p></div>
+			<div id="incompleteMessage" class="statusMessage"><p>Please complete all the fields in the form before sending.</p></div>
+		</div>
+		<div id="sidebar">
+			<div id="pdfLnk"><div class="shim"></div><div class="element">&nbsp;</div></div>
+			<div id="wordLnk"><div class="shim"></div><div class="element">&nbsp;</div></div>
+			<div id="linkedLnk"><div class="shim"></div><div class="element">&nbsp;</div></div>
+			<div id="whythis"><div class="shim"></div><div class="element">&nbsp;</div></div>
+		</div>
 	</div>
-	
+
 	<div id="footer">
 		<div id="facebookLnk"><div class="element">&nbsp;</div></div>
 		<div id="twitterLnk"><div class="element">&nbsp;</div></div>

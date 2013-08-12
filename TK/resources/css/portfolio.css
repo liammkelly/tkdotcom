@@ -140,20 +140,10 @@ body {
     -ms-filter: grayscale(100%);
     -o-filter: grayscale(100%);
 }
-#prevNavArea {
+#nextNavArea,#prevNavArea {
     float : left;
     height : 460px;
     padding: 403px 0 0 0;
-}
-#nextNavArea {
-    float : left;
-    height : 460px;
-}
-#hideViewerBtn {
-    margin-top : 32px;
-}
-#nextViewerBtn {
-    margin-top : 335px;
 }
 #viewerArea {
     float : left;

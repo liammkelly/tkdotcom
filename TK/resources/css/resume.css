@@ -1,5 +1,5 @@
 body {
-  	background-image		: url(../images/resume.jpg);
+  	background-image		: url(../images/Contact.jpg);
   	background-repeat		: no-repeat;
   	background-size			: 100%;
   	-moz-background-size	: 100%;
@@ -13,6 +13,7 @@ body {
 #mainArea {
 	width				: 100%;
 	height				: 90.5%;
+	float:left;
 }
 #header {
     width               : 100%;
@@ -25,46 +26,70 @@ body {
     position            : relative;
 }
 
+#mainArea #content {
+	width 				: 80%;
+	height				: 100%;
+	float:left;
+}
+
+#mainArea #sidebar {
+	width				: 20%;
+	height				: 100%;
+	float:left;
+}
+
 #mainArea #pdfLnk {
     display             : inline-block;
     position            : relative;
-    left                : 83.5%;
-    top                 : 6.5%;
-    width               : 11%;
-    height              : 4%;
+    left                : 20%;
+    top                 : 10.5%;
+    width               : 20%;
+    height              : 4.5%;
     cursor              : pointer;
 }
 #mainArea #wordLnk {
     display             : inline-block;
     position            : relative;
-    left                : 72%;
-    top                 : 11%;
-    width               : 11%;
-    height              : 4%;
+    left                : -1.8%;
+    top                 : 16.6%;
+    width               : 20%;
+    height              : 4.5%;
     cursor              : pointer;
 }
 #mainArea #linkedLnk {
     display             : inline-block;
     position            : relative;
-    left                : 60.5%;
-    top                 : 15%;
-    width               : 12%;
-    height              : 3.5%;
+    left                : -23%;
+    top                 : 22.7%;
+    width               : 20%;
+    height              : 4.5%;
     cursor              : pointer;
 }
+
 #mainArea #whythis {
     display             : inline-block;
     position            : relative;
-    left                : 50%;
-    top                 : 73%;
-    width               : 14%;
-    height              : 3.5%;
+    left                : -40%;
+    top                 : 60.5%;
+    width               : 80%;
+    height              : 4.5%;
     cursor              : pointer;
 }
-
+#mainArea #feelfree {
+  	display				: inline-block;
+  	position			: absolute;
+  	background-image	: url(../images/feelfree.jpg);
+	background-size		: 100%;
+	-moz-background-size: 100%;
+	background-repeat	: no-repeat;
+    left                : 13%;
+    top                 : 42%;
+    width               : 16.5%;
+    height              : 16.5%;
+}
 
 .resumeLnk {
-	background-image	: url(../images/NavButtons/ButtonAquaResume.jpg);
+	background-image	: url(../images/NavButtons/ButtonAquaContact.jpg);
 }
 
 /* SHARED */
@@ -92,13 +117,13 @@ body {
     left                : 75%;
     height              : 34%
 }
-#header #emailLnk {
+#emailLnk {
     display             : inline-block;
     position            : relative;
-    left                : -12.5%;
-    top                 : 325%;
-    width               : 11%;
-    height              : 30%;
+    left                : 13%;
+    top                 : 475%;
+    width               : 14%;
+    height              : 37%;
     cursor              : pointer;
 }
 #footer .aboutMeLnk {
@@ -158,4 +183,130 @@ body {
   bottom        : 0;
   left          : 0;
   right         : 0;
+}
+
+/* CONTACT FORM */
+/* Add curved borders to various elements */
+
+.statusMessage {
+  -moz-border-radius: 10px;
+  -webkit-border-radius: 10px;
+  border-radius: 10px;
+}
+
+
+/* Style for the contact form and status messages */
+
+.statusMessage {
+  color: #666;
+  background-color: #ebedf2;
+  background: -webkit-gradient( linear, left bottom, left top, color-stop(0,#dfe1e5), color-stop(1, #ebedf2) );
+  background: -moz-linear-gradient( center bottom, #dfe1e5 0%, #ebedf2 100% );
+  border: 1px solid #aaa;
+  -moz-box-shadow: 0 0 1em rgba(0, 0, 0, .5);
+  -webkit-box-shadow: 0 0 1em rgba(0, 0, 0, .5);
+  box-shadow: 0 0 1em rgba(0, 0, 0, .5);
+  opacity: .95;
+}
+
+
+/* The form dimensions */
+
+#contactForm {
+  width: 670px;
+  height: 430px;
+  margin: 45% 10% 0 16%;
+}
+
+
+/* Position the form in the middle of the window (if JavaScript is enabled) */
+
+#contactForm.positioned {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+
+/* Dimensions and position of the status messages */
+
+.statusMessage {
+  display: none;
+  margin: auto;
+  width: 30em;
+  height: 2em;
+  padding: 1.5em;
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
+.statusMessage p {
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+
+/* Give form elements consistent margin, padding and line height */
+
+#contactForm ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+#contactForm ul li {
+  margin: .4em 0 0 0;
+  padding: 0;
+}
+
+
+/* The fields */
+
+#formFields {
+	width:100%;
+}
+
+li input, li textarea {
+  margin: 0;
+  padding: .1em;
+  width: 85%;
+  font-family: "Arial", sans-serif;
+  font-size: 0.8em;
+  border: 1px solid transparent;
+  background: #fff;
+}
+
+textarea {
+  height: 200px;
+  line-height: 1.5em;
+  resize: none;
+  float:left;
+}
+
+form, #formFields, #formButton {
+	float:left;
+}
+/* Place a border around focused fields, and hide the inner shadow */
+
+#contactForm *:focus {
+  border: 1px solid #000;
+  outline: none;
+  box-shadow: none;
+  -moz-box-shadow: none;
+  -webkit-box-shadow: none;
+}
+
+#sendMessage {
+	background-image:url('/TK/resources/images/Send.jpg');
+	width:70px;
+	height:22px;
+	margin-top:185px;
+	cursor:pointer;
 }

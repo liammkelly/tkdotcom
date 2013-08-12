@@ -8,7 +8,7 @@
     height              : 33%;
 }
 .resumeLnk {
-	background-image	: url(../images/NavButtons/ButtonWhiteContact.jpg);
+	background-image	: url(../images/NavButtons/ButtonWhiteResume.jpg);
     background-size     : 100%;
   -moz-background-size  : 100%;
     background-repeat   : no-repeat;
@@ -29,7 +29,7 @@ div.aboutMeLnk:hover {
 }
 div.resumeLnk:hover {
     cursor              : pointer;
-	background-image	: url(../images/NavButtons/ButtonAquaContact.jpg);
+	background-image	: url(../images/NavButtons/ButtonAquaResume.jpg);
 }
 div.portfolioLnk:hover {
     cursor              : pointer;
